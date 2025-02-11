@@ -1,0 +1,106 @@
+OPERACOES
+
+    Operadores no C++ são simbolos que realisão varias operações nos dados, como aritmetica,
+    comparacao, e operações lógicas. Eles são usados para manipular e avaliar expressões variadas.
+
+    OPERAÇÕES ARITMETICAS
+        Eles são usados para realizar operações aritmetica como adição,subtração, multiplicação
+        e divisão.
+
+            ( + ) adição:
+
+                int sum = 5 + 3;
+
+            ( - ) subtração:
+
+                int diferenca = 5 - 3;
+
+            ( * ) multiplicação:
+
+                int produto = 5 * 3;
+
+            ( / ) divisão :
+
+                int quociente = 15 / 3;
+
+            ( % ) modulo (sobra)
+
+                int sobra = 7 % 3;
+
+    Operações de Comparação
+        Esses são utilizados para comparar dois valores e retornar TRUE ou False baseado
+        na comparação.
+
+            ( == ) igual a:
+                
+                bool isEqual = (5 == 3);        False
+            
+            ( != ) Não é igual:
+
+                bool isNotEqual = (5 != 3);     TRUE
+
+            ( < ) Menos que:
+
+                bool isLess = (5 < 3);          False
+            
+            ( > ) Maior que:
+
+                bool isGreater = (5 > 3);       TRUE
+
+            ( <= ) Menor ou Igual que:
+
+                bool MenorOuIgual = ( 5 <= 3);  False
+
+            ( >= ) Maior ou Igual que:
+
+                bool MaiorOuIgual = ( 5>= 3);   TRUE
+
+    OPERADORES LOGICOS
+        Essas operadores são usados para realizar operações lógicas como AND ( && ), OR ( || ), e 
+        NOT ( ! ) em valores boleanos.
+
+            ( && ) AND lógico
+
+                bool result = ( TRUE && False );    False
+
+            ( || ) OR lógico
+
+                bool result = ( TRUE || False );    TRUE
+
+            ( ! ) NOT lógico
+
+                bool result = !false;   True
+                bool result = !TRUE;    False
+
+    OPERADORES DE ASSOCIAÇÃO
+
+        Esses são usados para associar valores a variaveis
+
+            ( = ) associação simples
+
+                int x = 5;  'x' ganha o valor de 5
+
+            ( += ) associação de adição
+
+                int x = 5;
+                x += 3;     'x' ganha o valor de 8 ( 5 + 3)
+
+            ( -= ) associação de subtração
+
+                int x = 5;
+                x -= 3;     'x' ganha o valor de 2 ( 5 - 3)
+
+            ( *= ) associação de multiplicação
+
+                int x = 5;
+                x *= 3;     'x' ganha o valor de 15 ( 5 * 3)
+
+            ( /= ) associação de divisão
+
+                int x = 15;
+                x /= 3;     'x' ganha o valor de 5( 15 / 3 )
+
+            ( %= ) associação de módulo
+
+                int x = 7;
+                x %= 3;     'x' ganha o valor de 1 ( 7 % 3)
